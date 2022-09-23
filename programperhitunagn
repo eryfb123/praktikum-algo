@@ -1,0 +1,19 @@
+import math
+
+a=int(input("Masukkan nilai a: "))
+b=int(input("masukkan nilai b:"))
+
+
+def tugas(a,b):
+    a += b
+    print("a += b",a)
+    a -= b
+    print("a + b =",a + b)
+    print("a - b =",a - b)
+    print("a * b =",a * b)
+    print("a / b =",a / b)
+    print("log a =",math.log(a))
+    print("a pangkat b =",a**b)
+    print("akar dari a +b",math.sqrt(a + b))
+    print("b % a = ",b % a)
+tugas(a, b)
